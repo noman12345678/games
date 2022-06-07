@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tit For Tat Game</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="tic tac.css">
+</head>
+<body>
+	<h1 id="hading">Tit for Tat </h1>
+	<div id="input">
+	<div class="ghor" ></div>
+	<div class="ghor" ></div>
+	<div class="ghor" ></div>
+     <div class="ghor" ></div>
+     <div class="ghor" ></div>
+     <div class="ghor" ></div>
+     <div class="ghor" ></div>
+     <div class="ghor" ></div>
+     <div class="ghor" ></div>
+	</div>
+	
+<script>
+	
+var count=0;
+
+$(".ghor").click(function(){
+   
+	count =count+1;
+	
+	if(count%2==0){
+		
+	   $(this).html("0")
+	   
+	   
+	   }
+	else if(count%2==1) {
+		
+	   $(this).html("X")	
+		
+	}
+	
+});	
+	
+</script>
+	
+</body>
+</html>

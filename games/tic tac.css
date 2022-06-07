@@ -1,0 +1,35 @@
+  *margin:0px;
+*padding:0px;
+ 
+ #input {
+    width: 538px;
+	margin:auto;
+}
+ 
+
+.ghor{
+	
+border:4px solid  #03a9f4;
+	
+width: 146px;
+ 
+height: 128px;
+font-size:132px; 	
+float: left;
+}
+#input {
+    width: 538px;
+	margin:auto;
+}
+#hading{
+	
+text-align:center;
+	
+margin-left: -68px;
+	
+text-decoration: underline;
+	
+margin-bottom: 5px;
+}
+
+
